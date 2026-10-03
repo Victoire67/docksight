@@ -12,8 +12,6 @@ out/
 *.tsbuildinfo
 
 # Environment
-.env
-.env.local
 .env.*.local
 !.env.example
 
@@ -32,7 +30,6 @@ Desktop.ini
 
 # IDE
 .idea/
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 *.swp
@@ -72,3 +69,4 @@ temp/
 
 # MkDocs build output
 site/
+config.bat
